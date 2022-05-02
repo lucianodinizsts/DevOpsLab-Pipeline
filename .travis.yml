@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - node
-sudo: false
+sudo: true
 script:
   - npm test
 deploy:
