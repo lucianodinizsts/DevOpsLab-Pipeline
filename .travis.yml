@@ -1,9 +1,9 @@
 language: node_js
 node_js:
   - node
-sudo: true
-script:
-  - npm test
+sudo: false
+# script:
+#   - npm test
 deploy:
   provider: heroku
   api_key:
