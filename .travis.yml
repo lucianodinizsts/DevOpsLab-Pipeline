@@ -4,9 +4,9 @@ node_js:
 sudo: false
 # script:
 #   - npm test
-deploy:
-  provider: heroku
-  api_key:
-    secure: $HEROKU_KEY
-  app: devops-ultimate
-  edge: true
+# deploy:
+#   provider: heroku
+#   api_key:
+#     secure: $HEROKU_KEY
+#   app: devops-ultimate
+#   edge: true
